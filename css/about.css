@@ -1,0 +1,58 @@
+.logo1
+{
+    color: white;
+    letter-spacing: 1px;
+}
+
+.logo1:hover
+{
+    color: grey;
+}
+
+.navicon1 li a
+{
+    color: white;
+    letter-spacing: 1px;
+}
+.navicon1 li a:hover
+{
+    background-color: transparent;
+    color: grey;
+}
+.navicon1 li a:focus
+{
+    background-color: transparent;
+}
+
+
+.headlinesml
+{
+    font-size: 18pt;
+    margin-top: 2vh;
+}
+
+.headline-cmnt
+{
+    font-size: 14pt;
+    color: grey;
+}
+.sign
+{
+    font-size: 14pt;
+    color: grey;
+    font-weight: bold;
+    margin-top: 1vh;
+}
+
+.deler
+{
+    font-size: 21pt;
+    text-align: center;
+    padding: 3vh;
+}
+
+.title-become
+{
+    font-size: 18pt;
+    font-weight: bold;
+}

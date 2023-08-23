@@ -1,0 +1,119 @@
+.back-img
+{
+    height: 100vh; background-position: center; background-size: cover;
+}
+
+
+
+.titlebook
+{
+    font-size: 20pt;
+    margin: 4vh;
+    color: white;
+    text-align: center;
+    margin-top: 18vh;
+}
+
+.box1
+{
+    padding: 7vh;
+    /* border: 2px solid black; */
+    align-items: center;
+    background-color: rgba(999, 999, 999, 0.1);
+    border-radius: 15px;
+}
+
+.heading-title
+{
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    height: 50vh;
+    align-items:flex-end;
+    font-size: 23pt;
+    padding-bottom: 2vh;
+    letter-spacing: 1px;
+}
+
+.heading-par1
+{
+    color: white;
+    font-size: 10pt;
+    letter-spacing: .5px;
+    width: 77vh;
+    padding-bottom: 2vh;
+}
+.heading-link1
+{
+    margin-top: 2vh;
+}
+.heading-link1 a
+{
+    font-size: 13pt;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 2vh;
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.heading-link1 a:hover
+{
+    color: white;
+    background-color: chocolate;
+    border: 2px solid chocolate;
+    transition: 0.5s;
+}
+
+.form-table input[type=submit]
+{
+    background-color: rgb(255, 106, 52);
+    color: white;
+    border: none;
+    font-size: 16pt;
+    height: 7vh;
+    transition: 0.5s;
+}
+.form-table input[type=submit]:hover
+{
+    background-color: chocolate;
+    transition: 0.8s;
+}
+
+
+
+
+
+@media screen and (max-width: 800px) 
+{
+    .heading-title
+    {
+        height: 20vh;
+    }
+    .heading-par1
+    {
+        width: 100%;
+    }
+    .titlebook
+    {
+        margin-top: 10vh;
+    }
+    .heading-link1
+    {
+        text-align: left;
+    }
+    .heading-link1 a
+    {
+        color: white;
+        background-color: chocolate;
+        border:none;
+    }
+
+    .back-img
+    {
+        height: 130vh;
+    }
+
+}

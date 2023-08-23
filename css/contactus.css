@@ -1,0 +1,80 @@
+.contact-us
+{
+    padding: 3vh 0 1vh 0;
+    font-size: 14pt;
+    color: grey;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.contact-us1
+{
+    padding: 1vh 0 3vh 0;
+    font-size: 18pt;
+    color: black;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.form-tbl
+{
+    padding: 7vh;
+}
+
+.form-tbl label
+{
+    letter-spacing: 1px;
+    font-weight: 2;
+}
+
+.form-tbl input[type=text],input[type=submit],input[type=email] , .form-tbl textarea
+{
+    height: 40px;
+}
+
+.form-tbl input[type=submit]
+{
+    background-color: chocolate;
+    color: white;
+}
+
+.location
+{
+    padding: 0 0 4vh 0;
+    font-size: 20pt;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.box
+{
+    /* border: 2px solid black; */
+    height: 150px;
+    margin-bottom: 2vh;
+    text-align:justify;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    padding: 3vh;
+    transition: 0.5s;
+}
+.box:hover
+{
+    box-shadow: 1px 1px 10px grey;
+    transition: 0.5s;
+}
+.box-title
+{
+    font-size: 17pt;
+    letter-spacing: 1px;
+    color: black;
+    margin-bottom: 1vh;
+}
+
+
+@media screen and (max-width:800px)
+{
+    .box
+    {
+        height: 130px;
+    }
+}

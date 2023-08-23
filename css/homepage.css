@@ -1,0 +1,233 @@
+/* NAVBAR CSS =============== */
+
+.logo
+{
+    color: grey;
+    letter-spacing: 1px;
+}
+.logo:hover
+{
+    color: white;
+}
+.navicon li a
+{
+    color: grey;
+    letter-spacing: 1px;
+}
+.navicon li a:hover
+{
+    background-color: transparent;
+    color: white;
+}
+.navicon li a:focus
+{
+    background-color: transparent;
+}
+.menu
+{
+    background-color: grey;
+}
+
+
+/* CAROSUL CSS =============== */
+.carslcss
+{
+    /* background-color: blue; */
+    text-align: right;
+}
+
+.carslcss li
+{
+    border:none;    
+    background-color: grey;
+    opacity: 0.2;
+}
+.carslcss .active
+{
+    background-color: grey;
+    opacity: 0.5;
+}
+
+.carsl-content h1
+{
+    color: white;
+    letter-spacing: 2px;
+}
+
+.carsl-content p
+{
+    color: grey;
+    letter-spacing: .6px;
+}
+
+.carsl-content button
+{
+    background-color: transparent;
+    color: grey;
+    border-color: grey;
+    letter-spacing: 1px;
+}
+
+.carsl-content button:focus ,.carsl-content button:hover
+{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+
+/* our skillss============== */
+.skills-title
+{
+    font-size: 20pt;
+    color:grey;
+    padding: 2vh 0;
+}
+
+.headline
+{
+    font-size:30pt;
+    line-height: 1.1;
+    font-weight: bold;
+}
+.details
+{
+    letter-spacing: 1px;
+    padding: 2vh 0;
+}
+
+.skills-button
+{
+    margin: 4vh 0;
+    background-color: grey;
+    color: white;
+    transition: 0.5s;
+}
+
+.skills-button:hover
+{
+    background-color: orange;
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+
+.fafacss
+{
+    margin: 3vh 0;
+    color: white;
+}
+.title-cofee-type
+{
+    font-size: 16pt;
+    letter-spacing: 2px;
+    color: white;
+    margin: 2vh 0;
+}
+.par-cofee-type
+{
+    color: white;
+    letter-spacing: 1px;
+    margin: 2vh 0;
+}
+
+
+.title-esiest
+{
+    font-size: 19pt;
+    letter-spacing: 2px;
+    margin: 5vh 0 3vh 0;
+}
+
+.par-esiest
+{
+    font-size: 12pt;
+    letter-spacing: .6px;
+    margin: 2vh 0;
+}
+
+.easy-ul-list li
+{
+    font-size: 11pt;
+    letter-spacing: .5px;
+    color: grey;
+    margin-bottom: 2vh;
+}
+.easy-ul-list { margin-bottom: 4vh;}
+
+
+
+
+
+
+.video-box
+{
+    margin: 3vh 2vh 0 0vh;
+}
+.par-video
+{
+    font-size: 18pt;
+    letter-spacing: .6px;
+    margin: 2vh 0;   
+}
+.par-video2
+{
+    font-size: 17pt;
+    letter-spacing: .6px;
+    margin: 2vh 0;   
+}
+
+
+
+
+
+.discover-real
+{
+    font-size: 28.5pt;
+    color: white;
+    text-align: right;
+    margin-top: 20vh;
+}
+
+.discover-par
+{
+    font-size: 14pt;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 5vh;
+    text-align: right;
+}
+
+
+
+
+
+
+.footer-title
+{
+    font-size: 17pt;
+    margin: 4vh 0 ;
+}
+.footer-con
+{
+    font-size: 14pt;
+    color: grey;
+    margin-bottom: 2vh;
+}
+.footer-link a
+{
+    color: grey;
+    text-decoration: none;
+    font-size: 14pt;
+}
+.footer-link
+{
+    margin-bottom: 2vh;
+    margin-left: 2vh;
+}
+.footer-link a:hover
+{
+    color: white;
+}
