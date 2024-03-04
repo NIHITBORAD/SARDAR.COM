@@ -1,4 +1,7 @@
 /* NAVBAR CSS =============== */
+::-webkit-scrollbar{
+    display: none;
+}
 
 .logo
 {
